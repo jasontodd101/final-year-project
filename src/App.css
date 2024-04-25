@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+footer{
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 2.5em 0;
+  font-size: 1em;
+}
+
+body{
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(10, 107, 163);
+}
+i{
+  color: #000000;
+}
+h1,h2,h3,h5{
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(30, 49, 94);
+}
+
+footer div{
+  color: inherit;
+  text-decoration: none;
+}
+footer i{
+  color: white;
+}
+.footer__link{
+  font-weight: bold;
+}
+.social__list{
+  margin-top: .8em;
+}
+.social-list__link+.social-list__link{
+  margin-left: 1em;
+}
+.footer__link:hover,
+.social-list__link:hover{
+  opacity: .7;
+}
+.footer__link:hover{
+  text-decoration: underline;
+}
+
+.form_sign{
+  margin-top: 4em;
+  margin-bottom: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.border_sign{
+  border-radius: 35px 35px 35px 35px;
+-moz-border-radius: 35px 35px 35px 35px;
+-webkit-border-radius: 35px 35px 35px 35px;
+border: 0px solid rgba(0,0,0,1);
+-webkit-box-shadow: 0px 4px 26px 0px rgba(0,0,0,1);
+-moz-box-shadow: 0px 4px 26px 0px rgba(0,0,0,1);
+box-shadow: 0px 4px 26px 0px rgba(0,0,0,1);
+}
+
+
+
+.border_event{
+  -webkit-box-shadow: 10px 10px 51px -14px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 51px -14px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 51px -14px rgba(0,0,0,0.75);
+  border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+}
+
+
+.border_report{
+  padding: 2em;
+  -webkit-box-shadow: inset 2px 2px 12px 0px rgba(0,0,0,0.38);
+  -moz-box-shadow: inset 2px 2px 12px 0px rgba(0,0,0,0.38);
+  box-shadow: inset 2px 2px 12px 0px rgba(0,0,0,0.38);
+background-color: rgb(242, 244, 247);
+}
+
